@@ -19,7 +19,7 @@ def insertionSort2(b):
         j = i-1
         print("Data key", j, key,"<", b[i-1])
         while j >= 0 and key < b[j]:
-                b[j+1] = b[j];
+                b[j+1] = b[j]
                 j -= 1
                 print("Data", j, key, b[i])
         b[j+1] = key

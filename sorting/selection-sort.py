@@ -1,12 +1,12 @@
 #Time Complexity: O(n2) as there are two nested loops.
 
 
-def bble(a):
+def selectionSort(a):
     for i in range(0, len(a)):
         print("bble ", i, a)
 
 t= [9, 0, 6, 3]
-bble(t)
+selectionSort(t)
 
 A = [64, 25, 12, 22, 11]
 
